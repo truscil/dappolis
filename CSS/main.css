@@ -1,0 +1,222 @@
+/*Body*/
+
+body {
+	background-image: url(../Images/sea.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*HEADER*/
+.header {
+	color: white;
+}
+
+.header .nav-buttons {
+	float: right;
+}
+
+.header p {
+	padding: 25px 0 25px 0;
+}
+
+.nav-buttons {
+	margin: 20px;
+}
+
+
+/*VIDEO*/
+.video {
+	text-align: center;
+}
+
+/*ALBUM*/
+
+.album {
+	padding-top: 100px;
+	padding-bottom: 20px;
+}
+
+.album h1 {
+    text-align: left;
+    color: #EBF1FF;
+    font-size: 110px;
+    margin-left: 20px;
+    font-family: 'Poiret One', cursive;
+}
+
+.album h2 {
+    text-align: left;
+    color: #EBF1FF;
+    font-style: italic;
+    font-size: 50px;
+    margin-left: 20px;
+    margin-bottom: 120px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.album p {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 17px;
+	margin-left: 20px;
+}
+
+.album .tracks {
+	list-style: none;
+	text-align: right;
+	color: #fff;
+	font-size: 20px;
+	margin-top: 30px;
+}
+
+.album .tracks li {
+	padding-bottom: 15px;
+	font-family: 'Gloria Hallelujah', cursive;
+	color: #EBF1FF;
+}
+
+.album h4 {
+	margin-top: 45px;
+}
+
+.album .btn {
+	text-align: center;
+	margin-right: 20px;
+	margin-left: 20px;
+	float: right;
+	margin-top: 40px;
+	margin-bottom: 60px;
+}
+
+.album p {
+	text-align: left;
+	color: #EBF1FF;
+}
+
+
+audio {
+	background-color: #3B3C40;
+}
+
+/*DOWNLOAD*/
+.download {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+
+.download button {
+	float: right;
+	margin-left: 50px;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 18px;
+	background: #75797F;
+	border-color: #3B3C40;
+	color: #EBF1FF;
+}
+
+.download a {
+	color: #EBF1FF;
+}
+
+.download button:hover {
+	background: #3B3C40;
+	border-color: #3B3C40;
+	color: #EBF1FF;
+}
+
+/*Hover #EBF1FF*/
+
+/*FOOTER*/
+.footer {
+	text-align: center;
+	color: #EBF1FF;
+	margin-top: 80px;
+}
+
+.footer .fa-soundcloud {
+	font-size: 30px;
+	color: #EBF1FF;
+	margin-top: 20px;
+}
+
+/*MEDIA*/
+@media (max-width: 460px) {
+.album {
+	padding-top: 50px;
+	padding-bottom: 0px;
+}
+
+.album h1 {
+    text-align: center;
+    font-size: 80px;
+    margin: 0;
+}
+
+.album h2 {
+    text-align: center;
+    font-size: 45px;
+    margin-left: 0px;
+    margin-bottom: 40px;
+}
+
+.album p {
+	font-size: 17px;
+	margin-left: 0px;
+	padding-bottom: 40px;
+}
+
+.album .tracks {
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	margin-top: 15px;
+	margin-left: 0px;
+}
+
+.album .tracks li {
+	text-align: center;
+  	padding: 0px;
+}
+
+.album ol {
+	padding: 0;
+}
+
+audio {
+	width: 100%;
+  	margin: 0 auto;
+  	margin-left: 0px;
+ 	padding: 0px;
+}
+.download button {
+	float: none;
+	margin: 10px;
+}
+
+.footer {
+	text-align: center;
+	margin: 0px;
+}
+
+.footer .fa-soundcloud {
+	font-size: 30px;
+	color: #EBF1FF;
+	margin-top: 20px;
+}
+
+	}
+
+
+@media (max-width:980px) {
+
+.footer {
+	text-align: center;
+	margin: 75px 0px 0px 0px;
+}
+
+.download button {
+	float: none;
+	margin: 10px;
+}
+
+}
